@@ -1,3 +1,8 @@
+//
+//  Created by ysn551 on 01/04/17.
+//  Copyright © 2016 ysn551. All rights reserved.
+//
+
 import XCTest
 @testable import UTF8Decoder
 
@@ -51,12 +56,9 @@ class UTF8DecodeTest: XCTestCase {
                 let decode = String(data: encode, encoding: .utf8)
                 XCTAssertNotNil(decode)
                 XCTAssertEqual(decode, strArr[i])
-
                 i += 1
             }
         }
-
         XCTAssertEqual(i, strArr.count)
     }
-
 }

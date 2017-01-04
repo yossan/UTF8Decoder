@@ -1,3 +1,11 @@
+//
+//  Created by ysn551 on 01/04/17.
+//  Copyright © 2016 ysn551. All rights reserved.
+//
+
+/**
+ # UTF8 Extension
+ */
 extension UTF8 {
     static func width(_ unicodeScalar: UnicodeScalar) -> Int {
         var count = 0

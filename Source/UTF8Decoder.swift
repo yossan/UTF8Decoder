@@ -1,5 +1,15 @@
+//
+//  Created by ysn551 on 01/04/17.
+//  Copyright © 2016 ysn551. All rights reserved.
+//
+
 import Foundation
 
+/**
+ # UTF8Decoder
+ This struct has the feature to read one character as [UInt8] 
+ from the serialized data.
+ */
 public struct UTF8Decoder {
     private var currentBuffer: Data = Data(capacity: 0)
 
